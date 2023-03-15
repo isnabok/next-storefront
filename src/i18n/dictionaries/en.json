@@ -1,0 +1,15 @@
+{
+  "homePage": "Home Page",
+  "footer": {
+    "copyright": {
+      "name": "Site Name",
+      "text": "© 2023 ForExample"
+    },
+    "switcher": {
+      "selectLanguage": "Select language: ",
+      "russian": "Russian for Ukraine",
+      "english": "English",
+      "ukrainian": "Ukrainian"
+    }
+  }
+}
