@@ -27,6 +27,7 @@ export function middleware(request) {
       '/manifest.json',
       '/favicon.ico',
       '/favicon-32x32.png',
+      '/logo.svg',
       // Your other files in `public`
     ].includes(pathname)
   )

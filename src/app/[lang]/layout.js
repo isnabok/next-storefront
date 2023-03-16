@@ -2,6 +2,7 @@ import './styles/globals.css';
 import { getDictionary } from '../../i18n/get-dictionary';
 import { i18n } from '../../i18n/i18n-config';
 import Footer from './components/common/Footer';
+import Header from './components/common/Header/Header';
 
 export const metadata = {
   icons: {
@@ -21,6 +22,7 @@ export default async function Root({ children, params }) {
   return (
     <html lang={params.lang === 'ru' ? 'ru-UA' : params.lang}>
       <body>
+        <Header t={t.header} />
         {children}
         <Footer t={t.footer} />
       </body>
