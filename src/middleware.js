@@ -11,7 +11,7 @@ function getLocale(request) {
 
   // Use negotiator and intl-localematcher to get best locale
   let languages = new Negotiator({ headers: negotiatorHeaders }).languages();
-  console.log(languages);
+  //console.log(languages);
 
   const locales = i18n.locales;
   return matchLocale(languages, locales, i18n.defaultLocale);

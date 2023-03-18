@@ -6,7 +6,9 @@ export default async function Home({ params: { lang } }) {
   const t = await getDictionary(lang);
   return (
     <>
-      <h1 className="text-gray-700 font-bold">{t.homePage}</h1>
+      <div className="h-[75vh] ">
+        <h1 className="text-gray-700 font-bold">{t.homePage}</h1>
+      </div>
     </>
   );
 }
