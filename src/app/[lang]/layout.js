@@ -1,7 +1,7 @@
 import './styles/globals.css';
 import { getDictionary } from '../../i18n/get-dictionary';
 import { i18n } from '../../i18n/i18n-config';
-import Footer from './components/common/Footer';
+import Footer from './components/common/Footer/Footer';
 import Header from './components/common/Header/Header';
 
 export const metadata = {
