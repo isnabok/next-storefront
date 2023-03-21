@@ -26,7 +26,7 @@ const Header = ({ t }) => {
             </div>
             {/* Logo */}
             <div className="md:cursor-pointer h-3 lg:h-4 w-[220px] relative object-cover">
-              <Image src="/logo.svg" fill className="" />
+              <Image src="/logo.svg" fill className="" alt="logo" />
             </div>
             <div className="lg:hidden">
               <RightButton />
